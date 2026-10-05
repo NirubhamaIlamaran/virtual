@@ -22,7 +22,7 @@ echo
 man
 uname
 history
-
+--------------------------------------------------------
 2. network , ping
 
 To install Java
@@ -65,9 +65,10 @@ ip confing (for windows)
  
 ping address
 
-
+--------------------------------------------------------
 3. Cold Migration
-
+steps:
+1)create a java file
 nano 1.txt
 cat 1.txt
 sudo poweroff
@@ -95,9 +96,11 @@ public class sujitaa {
         System.out.println("Hello World");
     }
 }
-
+2)export the app
+3)import in another system
+--------------------------------------------------------
 4. citrix
-
+--------------------------------------------------------
 5. kvm
 
 Egrep -c ‘lm’ /proc/cpuinfo
@@ -121,6 +124,7 @@ Version
 Nodeinfo
 Vm manager - qemu - new - import - download.cirros.cloud.net/0.5.1
 
+--------------------------------------------------------
 
 6.shared media
 ls /media
@@ -129,6 +133,8 @@ sudo usermod -aG vboxsf $USER
 sudo reboot
 cp VM1.txt /media/sf_VMShared/
 cat /media/sf_VMShared/VM1.txt
+
+--------------------------------------------------------
 
 7.hyper -v
 Window:
@@ -142,6 +148,7 @@ Get-VM -Name “Nan”
 Stop-VM -Name “Nan”
 Get-VM -Name “Nan”
 
+--------------------------------------------------------
 
 8.
 Ifconfig
